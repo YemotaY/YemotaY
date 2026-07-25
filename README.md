@@ -9,11 +9,6 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&pause=900&color=00FF41&center=true&vCenter=true&width=720&height=70&lines=Trying+to+decipher+the+matrix.;Fullstack+%2B+Embedded+%2B+Robotics;From+raw+machine+code+to+MCP+backends;Knowledge+sponge+%E2%80%A2+eternal+tinkerer" alt="typing banner" />
 
-```
-   ╔══════════════════════════════════════════════════════════════╗
-   ║   S ö r e n   ·   @YemotaY   ·   🇩🇪   ·   🤤 decoding the matrix   ║
-   ╚══════════════════════════════════════════════════════════════╝
-```
 
 [![Profile Views](https://komarev.com/ghpvc/?username=YemotaY&label=souls%20observed&color=00ff41&style=flat-square)](https://github.com/YemotaY)
 [![Followers](https://img.shields.io/github/followers/YemotaY?label=followers&style=flat-square&color=00ff41)](https://github.com/YemotaY?tab=followers)
@@ -21,7 +16,6 @@
 
 </div>
 
----
 
 ## `whoami`
 
@@ -40,7 +34,7 @@ identity:    knowledge_sponge = True
 - 🤖 I like **hardware that talks back**: ESP32 voice assistants, 6-DOF arms, LiDAR, PLC & robotics.
 - 🧽 Perpetual learner — if it hums, blinks or compiles, I want to know *why*.
 
----
+
 
 ## `cat pinned_projects.md`
 
@@ -55,7 +49,7 @@ identity:    knowledge_sponge = True
 
 > _…and 26 more in the [repository vault](https://github.com/YemotaY?tab=repositories)._
 
----
+
 
 ## `ls /skills`
 
@@ -80,7 +74,6 @@ identity:    knowledge_sponge = True
 
 </div>
 
----
 
 ## `top -o commits`
 
@@ -97,7 +90,7 @@ identity:    knowledge_sponge = True
 
 </div>
 
----
+
 
 ## `echo $CONNECT`
 
