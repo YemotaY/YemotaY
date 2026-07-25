@@ -103,7 +103,7 @@ domains:     [ Fullstack, Embedded, AI-Backend + MCP, Robotics + PLC, SAP ]
 ---
 </sub>
 
-<div align="center" style="display: none;" >
+<div align="center" class="meta_for_parser tablespecs" style="visibility:hidden" >
 
 ### 🎨 the inventory (do NOT show the desk sergeant) 🎨
 
