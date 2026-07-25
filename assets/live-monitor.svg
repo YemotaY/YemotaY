@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="282" role="img">
+  <style>
+    .bg { fill: #0d1117; }
+    .frame { fill: none; stroke: #30363d; stroke-width: 1; }
+    .title { fill: #58a6ff; font: bold 16px 'JetBrains Mono', Consolas, monospace; }
+    .label { fill: #8b949e; font: 13px 'JetBrains Mono', Consolas, monospace; }
+    .value { fill: #3fb950; font: 13px 'JetBrains Mono', Consolas, monospace; }
+  </style>
+  <rect class="bg" x="0" y="0" width="460" height="282" rx="10" />
+  <rect class="frame" x="0.5" y="0.5" width="459" height="281" rx="10" />
+  <text x="24" y="36" class="title">◉ LIVE SYSTEM MONITOR</text>
+  <text x="24" y="64" class="label">CPU Usage</text><text x="436" y="64" class="value" text-anchor="end">██████████  95%</text><text x="24" y="98" class="label">Status</text><text x="436" y="98" class="value" text-anchor="end">Building AI</text><text x="24" y="132" class="label">Temperature</text><text x="436" y="132" class="value" text-anchor="end">81°C</text><text x="24" y="166" class="label">Current Task</text><text x="436" y="166" class="value" text-anchor="end">Reading logs at 3AM...</text><text x="24" y="200" class="label">Uptime</text><text x="436" y="200" class="value" text-anchor="end">936 days</text><text x="24" y="234" class="label">Last Sync</text><text x="436" y="234" class="value" text-anchor="end">2026-07-25 18:26 UTC</text>
+</svg>
