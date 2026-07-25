@@ -100,9 +100,9 @@ domains:     [ Fullstack, Embedded, AI-Backend + MCP, Robotics + PLC, SAP ]
 ```
 > There is no spoon. There is only code you haven't written yet.
 ```
-
-</sub>
 ---
+</sub>
+
 <div align="center">
 
 ### 🎨 the inventory (do NOT show the desk sergeant) 🎨
