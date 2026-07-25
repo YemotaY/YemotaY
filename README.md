@@ -93,7 +93,7 @@ domains:     [ Fullstack, Embedded, AI-Backend + MCP, Robotics + PLC, SAP ]
 
 <div align="center">
 
-[![GitHub Page](https://img.shields.io/badge/gitpage-yemotay.github.io-00ff41?style=for-the-badge&logo=github&logoColor=white)](https://yemotay.github.io)
+[![GitHub Page](https://img.shields.io/badge/gitpage-yemotay.github.io-00ff41?style=for-the-badge&logo=github&logoColor=009dff)](https://yemotay.github.io)
 
 <sub>
 
