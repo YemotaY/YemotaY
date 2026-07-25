@@ -102,10 +102,35 @@ domains:     [ Fullstack, Embedded, AI-Backend + MCP, Robotics + PLC, SAP ]
 ```
 
 </sub>
+
+<div align="center">
+
+### 🎨 the inventory (do NOT show the desk sergeant) 🎨
+
+
+
+> *"We had two bags of grass, seventy-five pellets of mescaline, five sheets of
+> high-powered blotter acid, a salt shaker half full of cocaine, and a whole
+> galaxy of multi-colored uppers, downers, screamers, laughers…"*
+
+| # | item | quantity | purpose |
+| :-: | :-- | :-- | :-- |
+| 🌿 | bags of grass | `2` | ambient debugging |
+| 💊 | pellets of mescaline | `75` | perspective on the stack trace |
+| 📄 | sheets of blotter acid | `5` | frontend color palettes |
+| 🧂 | shaker of cocaine | `½` | overnight deploys |
+| 🌈 | multi-colored uppers/downers | `∞` | sprint velocity tuning |
+| 🍺 | quart of tequila / rum / beer | `1 case` | code review courage |
+| 🦇 | bats | `many` | they're everywhere, man |
+
+</div>
+
+---
+
+
 <div align="center">
   <!-- 𓂀𓋹𓊹𓆓𓅓𓏏𓈗𓆣𓉐𓊪𓏛 -->
 
-<div align="center">
 
 <img src="https://readme-typing-svg.demolab.com?font=Noto+Sans+Egyptian+Hieroglyphs&weight=700&size=40&pause=900&color=E0B84C&center=true&vCenter=true&width=820&height=90&lines=%F0%93%82%80%20%F0%93%85%93%20%F0%93%8A%A9%20%F0%93%8F%8F%20%F0%93%86%93%20%F0%93%8A%AA;%F0%93%8B%B9%20%F0%93%8A%AA%20%F0%93%88%97%20%F0%93%86%A3%20%F0%93%89%90%20%F0%93%82%80;%F0%93%8F%9B%20%F0%93%82%80%20%F0%93%8B%B9%20%F0%93%8A%A9%20%F0%93%8F%8F%20%F0%93%86%93" alt="𓂀" />
 
@@ -127,5 +152,5 @@ domains:     [ Fullstack, Embedded, AI-Backend + MCP, Robotics + PLC, SAP ]
 
 </div>
 
-</div>
+
 </div>
