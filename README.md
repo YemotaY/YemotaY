@@ -11,7 +11,7 @@
 
 
 [![Profile Views](https://komarev.com/ghpvc/?username=YemotaY&label=souls%20observed&color=00ff41&style=flat-square)](https://github.com/YemotaY)
-[![Followers](https://img.shields.io/github/followers/YemotaY?label=followers&style=flat-square&color=00ff41)](https://github.com/YemotaY?tab=followers)
+[![Frens](https://img.shields.io/github/followers/YemotaY?label=followers&style=flat-square&color=00ff41)](https://github.com/YemotaY?tab=followers)
 [![Stars](https://img.shields.io/github/stars/YemotaY?label=stars&style=flat-square&color=00ff41)](https://github.com/YemotaY?tab=repositories)
 
 </div>
