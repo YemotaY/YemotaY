@@ -21,18 +21,17 @@
 
 ```yaml
 name:        Sören  (a.k.a. YemotaY)
-location:    Germany 🇩🇪
+location:    Germany
 role:        Fullstack + Embedded engineer, backend & AI tinkerer
 mantra:      "build it from absolute zero, then understand every byte"
-currently:   deciphering the matrix — from bare-metal ASM to MCP-powered backends
+currently:   from bare-metal ASM to EDI
 domains:     [ Fullstack, Embedded, AI-Backend + MCP, Robotics + PLC, SAP ]
-identity:    knowledge_sponge = True
 ```
 
-- 🔭 I build things from **first principles** — a language with *no C in its bootstrap chain*, an OS from *scratch*, quantum-flavored transport protocols, and LoRa meshes.
-- 🌱 Comfortable from **raw machine code and Assembly** all the way up to **web frontends, AI backends and SAP/ABAP**.
-- 🤖 I like **hardware that talks back**: ESP32 voice assistants, 6-DOF arms, LiDAR, PLC & robotics.
-- 🧽 Perpetual learner — if it hums, blinks or compiles, I want to know *why*.
+- I build things from **first principles** — a language with *no C in its bootstrap chain*, an OS from *scratch*, quantum-flavored transport protocols, and LoRa meshes.
+- Comfortable from **raw machine code and Assembly** all the way up to **web frontends, AI backends and SAP/ABAP**.
+- I like **hardware that talks back**: ESP32 voice assistants, 6-DOF arms, LiDAR, PLC & robotics.
+- Perpetual learner — if it hums, blinks or compiles, I want to know *why*.
 
 
 
