@@ -89,8 +89,6 @@ domains:     [ Fullstack, Embedded, AI-Backend + MCP, Robotics + PLC, SAP ]
 
 </div>
 
-
-
 ## `echo $CONNECT`
 
 <div align="center">
@@ -105,5 +103,30 @@ domains:     [ Fullstack, Embedded, AI-Backend + MCP, Robotics + PLC, SAP ]
 ```
 
 </sub>
+<div align="center">
+  <!-- 𓂀𓋹𓊹𓆓𓅓𓏏𓈗𓆣𓉐𓊪𓏛 -->
 
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Noto+Sans+Egyptian+Hieroglyphs&weight=700&size=40&pause=900&color=E0B84C&center=true&vCenter=true&width=820&height=90&lines=%F0%93%82%80%20%F0%93%85%93%20%F0%93%8A%A9%20%F0%93%8F%8F%20%F0%93%86%93%20%F0%93%8A%AA;%F0%93%8B%B9%20%F0%93%8A%AA%20%F0%93%88%97%20%F0%93%86%A3%20%F0%93%89%90%20%F0%93%82%80;%F0%93%8F%9B%20%F0%93%82%80%20%F0%93%8B%B9%20%F0%93%8A%A9%20%F0%93%8F%8F%20%F0%93%86%93" alt="𓂀" />
+
+<br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=Noto+Sans+Egyptian+Hieroglyphs&weight=700&size=32&pause=1100&color=C8A24B&center=true&vCenter=true&width=780&height=80&lines=%F0%93%8A%A9%20%F0%93%8F%8F%20%F0%93%88%97%20%F0%93%82%80%20%F0%93%85%93;%F0%93%89%90%20%F0%93%8A%AA%20%F0%93%86%A3%20%F0%93%8B%B9%20%F0%93%8F%9B;%F0%93%86%93%20%F0%93%82%80%20%F0%93%8A%A9%20%F0%93%8F%8F%20%F0%93%88%97%20%F0%93%8A%AA" alt="𓋹" />
+
+<br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=Noto+Sans+Egyptian+Hieroglyphs&weight=600&size=48&pause=800&color=B8860B&center=true&vCenter=true&width=760&height=100&lines=%F0%93%82%80%20%F0%93%8B%B9%20%F0%93%8A%A9%20%F0%93%86%93%20%F0%93%85%93;%F0%93%8F%8F%20%F0%93%88%97%20%F0%93%86%A3%20%F0%93%89%90%20%F0%93%8A%AA;%F0%93%8F%9B%20%F0%93%82%80%20%F0%93%8B%B9%20%F0%93%8A%A9%20%F0%93%8F%8F" alt="𓊹" />
+
+<br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=Noto+Sans+Egyptian+Hieroglyphs&weight=700&size=30&pause=1000&color=E0B84C&center=true&vCenter=true&width=800&height=80&lines=%F0%93%86%93%20%F0%93%8A%AA%20%F0%93%82%80%20%F0%93%8B%B9%20%F0%93%8A%A9%20%F0%93%88%97%20%F0%93%89%90;%F0%93%85%93%20%F0%93%8F%8F%20%F0%93%86%A3%20%F0%93%8F%9B%20%F0%93%82%80%20%F0%93%8B%B9;%F0%93%8A%A9%20%F0%93%89%90%20%F0%93%88%97%20%F0%93%86%93%20%F0%93%8A%AA%20%F0%93%82%80" alt="𓆓" />
+
+<br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=Noto+Sans+Egyptian+Hieroglyphs&weight=800&size=44&pause=700&color=C8A24B&center=true&vCenter=true&width=760&height=100&lines=%F0%93%89%90%20%F0%93%82%80%20%F0%93%8B%B9;%F0%93%8A%A9%20%F0%93%8F%8F%20%F0%93%86%93;%F0%93%88%97%20%F0%93%86%A3%20%F0%93%8F%9B" alt="𓉐" />
+
+</div>
+
+</div>
 </div>
