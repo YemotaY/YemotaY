@@ -14,6 +14,10 @@
 [![Frens](https://img.shields.io/github/followers/YemotaY?label=Frens&style=flat-square&color=009dff)](https://github.com/YemotaY?tab=followers)
 [![Stars](https://img.shields.io/github/stars/YemotaY?label=Stars&style=flat-square&color=009dff)](https://github.com/YemotaY?tab=repositories)
 
+![Profile Views](./profile-views.svg)
+![Frens](./followers.svg)
+![Stars](./stars.svg)
+
 </div>
 
 
