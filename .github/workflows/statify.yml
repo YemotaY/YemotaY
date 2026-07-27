@@ -17,7 +17,14 @@ jobs:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - uses: actions/checkout@v4
+      # Install Python
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
 
+      # Install Python packages
+      - name: Install dependencies
+        run: pip install requests
       - name: Generate stats
         run: |
           # Run your script here
