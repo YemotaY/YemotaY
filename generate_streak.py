@@ -128,7 +128,7 @@ f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}">',
 '<rect width="100%" height="100%" rx="10" fill="#0d1117"/>',
 
 # title
-'<text x="30" y="40" class="title">GitHub Streak</text>',
+f'<text x="{width/2}" y="40" class="title">GitHub Streak</text>',
 
 # fire icon
 '<text x="30" y="95" font-size="45">🔥</text>',
