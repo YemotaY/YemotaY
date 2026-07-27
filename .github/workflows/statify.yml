@@ -31,7 +31,9 @@ jobs:
           # python generate_top_langs.py
           python generate_svg.py
           python generate_streak.py
-
+          python generate-profile-views.py
+          python generate-followers-badge.py
+          python generate-stars-badge.py
 
       - name: Commit changes
         run: |
