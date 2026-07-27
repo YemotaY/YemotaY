@@ -78,8 +78,10 @@ domains:     [ Fullstack, Embedded, AI-Backend + MCP, Robotics + PLC, SAP ]
 
 <div align="center">
 
+  ![Top Languages](./top-languages.svg)
+  
 <img height="165" src="https://github-readme-stats.vercel.app/api?username=YemotaY&show_icons=true&count_private=true&hide_border=true&theme=chartreuse-dark&title_color=00ff41&icon_color=00ff41&text_color=c9d1d9&bg_color=0d1117" alt="stats" />
-![Top Languages](./top-languages.svg)
+
 <!-- TOP_LANGUAGES_START -->
 <!-- TOP_LANGUAGES_END -->
 
