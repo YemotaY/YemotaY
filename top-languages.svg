@@ -26,7 +26,7 @@
 <text x="30" y="80" class="text">Python</text>
 <rect x="150" y="68" width="250" height="12" rx="6" fill="#21262d"/>
 <rect x="150" y="68" width="187" height="12" rx="6" fill="#00ff41"/>
-<text x="420" y="80" class="percent">75.1%</text>
+<text x="420" y="80" class="percent">74.8%</text>
 <text x="30" y="112" class="text">JavaScript</text>
 <rect x="150" y="100" width="250" height="12" rx="6" fill="#21262d"/>
 <rect x="150" y="100" width="29" height="12" rx="6" fill="#3178c6"/>
@@ -39,14 +39,14 @@
 <rect x="150" y="164" width="250" height="12" rx="6" fill="#21262d"/>
 <rect x="150" y="164" width="5" height="12" rx="6" fill="#e34c26"/>
 <text x="420" y="176" class="percent">2.2%</text>
-<text x="30" y="208" class="text">G-code</text>
+<text x="30" y="208" class="text">C</text>
 <rect x="150" y="196" width="250" height="12" rx="6" fill="#21262d"/>
-<rect x="150" y="196" width="3" height="12" rx="6" fill="#dea584"/>
+<rect x="150" y="196" width="4" height="12" rx="6" fill="#dea584"/>
 <text x="420" y="208" class="percent">1.6%</text>
-<text x="30" y="240" class="text">C</text>
+<text x="30" y="240" class="text">G-code</text>
 <rect x="150" y="228" width="250" height="12" rx="6" fill="#21262d"/>
 <rect x="150" y="228" width="3" height="12" rx="6" fill="#563d7c"/>
-<text x="420" y="240" class="percent">1.2%</text>
+<text x="420" y="240" class="percent">1.6%</text>
 <text x="30" y="272" class="text">C++</text>
 <rect x="150" y="260" width="250" height="12" rx="6" fill="#21262d"/>
 <rect x="150" y="260" width="1" height="12" rx="6" fill="#00ADD8"/>
