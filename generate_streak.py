@@ -128,7 +128,7 @@ f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}">',
 '<rect width="100%" height="100%" rx="10" fill="#0d1117"/>',
 
 # title
-f'<text x="{width/2-75}" y="40" class="title">GitHub Streak</text>',
+f'<text x="{width/2-90}" y="40" class="title">GitHub Streak</text>',
 
 # fire icon
 f'<text x="{width/2-100}" y="95" font-size="45">🔥</text>',
@@ -144,7 +144,7 @@ f'Longest streak: {longest} days'
 f'</text>',
 
 
-f'<text x="260" y="160" class="small">'
+f'<text x="280" y="160" class="small">'
 f'Total contributions: {total_contributions}'
 f'</text>',
 
