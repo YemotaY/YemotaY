@@ -78,6 +78,18 @@ domains:     [ Fullstack, Embedded, AI-Backend + MCP, Robotics + PLC, SAP ]
 
 <div align="center">
 <!-- TOP_LANGUAGES_START -->
+## Top Languages
+
+- **Python** — 74.60%
+- **JavaScript** — 11.63%
+- **HTML** — 7.00%
+- **Cython** — 2.16%
+- **G-code** — 1.59%
+- **C** — 1.23%
+- **C++** — 0.72%
+- **Jupyter Notebook** — 0.40%
+- **PHP** — 0.14%
+- **CSS** — 0.13%
 <!-- TOP_LANGUAGES_END -->
 <img height="165" src="https://github-readme-stats.vercel.app/api?username=YemotaY&show_icons=true&count_private=true&hide_border=true&theme=chartreuse-dark&title_color=00ff41&icon_color=00ff41&text_color=c9d1d9&bg_color=0d1117" alt="stats" />
 <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YemotaY&layout=compact&hide_border=true&theme=chartreuse-dark&title_color=00ff41&text_color=c9d1d9&bg_color=0d1117&langs_count=8" alt="top languages" />
