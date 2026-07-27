@@ -21,7 +21,7 @@ jobs:
       - name: Generate stats
         run: |
           # Run your script here
-          python generate_stats.py
+          python generate_top_langs.py
 
       - name: Commit changes
         run: |
