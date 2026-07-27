@@ -77,7 +77,8 @@ domains:     [ Fullstack, Embedded, AI-Backend + MCP, Robotics + PLC, SAP ]
 ## `top -o commits`
 
 <div align="center">
-
+<!-- TOP_LANGUAGES_START -->
+<!-- TOP_LANGUAGES_END -->
 <img height="165" src="https://github-readme-stats.vercel.app/api?username=YemotaY&show_icons=true&count_private=true&hide_border=true&theme=chartreuse-dark&title_color=00ff41&icon_color=00ff41&text_color=c9d1d9&bg_color=0d1117" alt="stats" />
 <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YemotaY&layout=compact&hide_border=true&theme=chartreuse-dark&title_color=00ff41&text_color=c9d1d9&bg_color=0d1117&langs_count=8" alt="top languages" />
 
