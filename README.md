@@ -77,6 +77,7 @@ domains:     [ Fullstack, Embedded, AI-Backend + MCP, Robotics + PLC, SAP ]
 
 <div align="center">
   ![Top Languages](./top-languages.svg)
+  
   (Maybe one day Github will accept .tnc as own language!)
   </br>
   <img src="./github-streak.svg" alt="streak" />
