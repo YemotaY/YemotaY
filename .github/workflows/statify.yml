@@ -28,7 +28,9 @@ jobs:
       - name: Generate stats
         run: |
           # Run your script here
-          python generate_top_langs.py
+          # python generate_top_langs.py
+          python generate_svg.py
+
 
       - name: Commit changes
         run: |
