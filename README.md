@@ -76,6 +76,7 @@ domains:     [ Fullstack, Embedded, AI-Backend + MCP, Robotics + PLC, SAP ]
 ## `./stats`
 
 <div align="center">
+  
   ![Top Languages](./top-languages.svg)
   
   (Maybe one day Github will accept .tnc as own language!)
