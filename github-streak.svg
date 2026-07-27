@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="195">
+
+<style>
+
+.title {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    fill: #00ff41;
+}
+
+.big {
+    font-family: Arial, sans-serif;
+    font-size: 42px;
+    font-weight: bold;
+    fill: #00ff41;
+}
+
+.label {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    fill: #c9d1d9;
+}
+
+.small {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    fill: #8b949e;
+}
+
+</style>
+
+<rect width="100%" height="100%" rx="10" fill="#0d1117"/>
+<text x="30" y="40" class="title">GitHub Streak</text>
+<text x="30" y="95" font-size="45">🔥</text>
+<text x="90" y="95" class="big">1</text>
+<text x="90" y="120" class="label">day streak</text>
+<text x="30" y="160" class="small">Longest streak: 7 days</text>
+<text x="280" y="160" class="small">Total contributions: 149</text>
+</svg>
