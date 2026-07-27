@@ -9,12 +9,6 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&pause=900&color=00FF41&center=true&vCenter=true&width=720&height=70&lines=Trying+to+decipher+the+matrix.;Fullstack+%2B+Embedded+%2B+Robotics;From+raw+machine+code+to+MCP+backends;Knowledge+sponge+%E2%80%A2+eternal+tinkerer" alt="typing banner" />
 
-
-[![Profile Views](https://komarev.com/ghpvc/?username=YemotaY&label=souls%20watched%20by&color=009dff&style=flat-square)](https://github.com/YemotaY)
-[![Frens](https://img.shields.io/github/followers/YemotaY?label=Frens&style=flat-square&color=009dff)](https://github.com/YemotaY?tab=followers)
-[![Stars](https://img.shields.io/github/stars/YemotaY?label=Stars&style=flat-square&color=009dff)](https://github.com/YemotaY?tab=repositories)
-
-![Profile Views](./profile-views.svg)
 ![Frens](./followers.svg)
 ![Stars](./stars.svg)
 
