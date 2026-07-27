@@ -30,6 +30,7 @@ jobs:
           # Run your script here
           # python generate_top_langs.py
           python generate_svg.py
+          python generate_streak.py
 
 
       - name: Commit changes
