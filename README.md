@@ -78,7 +78,9 @@ domains:     [ Fullstack, Embedded, AI-Backend + MCP, Robotics + PLC, SAP ]
 <div align="center">
 
   ![Top Languages](./top-languages.svg)
+  </br>
   <img src="./github-streak.svg" alt="streak" />
+  </br>
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=YemotaY&bg_color=0d1117&color=00ff41&line=00ff41&point=ffffff&area=true&hide_border=true" alt="activity graph" />
 
 </div>
