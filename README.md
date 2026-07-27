@@ -87,6 +87,7 @@ domains:     [ Fullstack, Embedded, AI-Backend + MCP, Robotics + PLC, SAP ]
 ## `ping $OUTER_CONNECTIONS`
 
 <div align="center">
+  
 [![GitHub Page](https://img.shields.io/badge/gitpage-yemotay.github.io-009dff?style=for-the-badge&logo=github&logoColor=white)](https://yemotay.github.io)
 
 <sub>
