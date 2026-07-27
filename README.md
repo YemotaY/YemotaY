@@ -33,21 +33,6 @@ domains:     [ Fullstack, Embedded, AI-Backend + MCP, Robotics + PLC, SAP ]
 
 
 
-## `cat pinned_projects.md`
-
-| Project | What it is | Stack |
-| :-- | :-- | :-- |
-| [**tnc**](https://github.com/YemotaY/tnc) | A systems language & toolchain built from **absolute zero** — no C, no C-derived compiler, ever. Fully auditable bootstrap chain from raw machine code. | `Shell` `ASM` |
-| [**glowieStopper**](https://github.com/YemotaY/glowieStopper) | A fully self-contained operating system built from **first principles**. | `Assembly` |
-| [**ESP32S3-INMP441**](https://github.com/YemotaY/ESP32S3-INMP441) | "Simon says" voice computer — ESP mic client + training suite + intention backend for cheap, self-controlled home voice commands. | `C` `AI` |
-| [**Altnet**](https://github.com/YemotaY/Altnet) | Decentralized, encrypted **LoRa mesh** for ESP8266 / Arduino-class MCUs — LoRaWAN-inspired, peer-to-peer, no central server. | `C` |
-| [**QuantenSicher**](https://github.com/YemotaY/QuantenSicher) | A low-level, quantum-secure alternative to HTTPS — proof of concept in C. | `C` |
-| [**cancersucks**](https://github.com/YemotaY/cancersucks) | The mathematical search for the key to cancer — in the hands of all volunteers. | `Python` |
-
-> _…and 26 more in the [repository vault](https://github.com/YemotaY?tab=repositories)._
-
-
-
 ## `ls /skills`
 
 <div align="center">
@@ -70,6 +55,22 @@ domains:     [ Fullstack, Embedded, AI-Backend + MCP, Robotics + PLC, SAP ]
 ![MCP](https://img.shields.io/badge/AI%20%2B%20MCP-412991?style=for-the-badge&logo=openai&logoColor=white)
 
 </div>
+
+
+
+## `cat pinned_projects.md`
+
+| Project | What it is | Stack |
+| :-- | :-- | :-- |
+| [**tnc**](https://github.com/YemotaY/tnc) | A systems language & toolchain built from **absolute zero** — no C, no C-derived compiler, ever. Fully auditable bootstrap chain from raw machine code. | `Shell` `ASM` |
+| [**glowieStopper**](https://github.com/YemotaY/glowieStopper) | A fully self-contained operating system built from **first principles**. | `Assembly` |
+| [**ESP32S3-INMP441**](https://github.com/YemotaY/ESP32S3-INMP441) | "Simon says" voice computer — ESP mic client + training suite + intention backend for cheap, self-controlled home voice commands. | `C` `AI` |
+| [**Altnet**](https://github.com/YemotaY/Altnet) | Decentralized, encrypted **LoRa mesh** for ESP8266 / Arduino-class MCUs — LoRaWAN-inspired, peer-to-peer, no central server. | `C` |
+| [**QuantenSicher**](https://github.com/YemotaY/QuantenSicher) | A low-level, quantum-secure alternative to HTTPS — proof of concept in C. | `C` |
+| [**cancersucks**](https://github.com/YemotaY/cancersucks) | The mathematical search for the key to cancer — in the hands of all volunteers. | `Python` |
+
+> _…and 26 more in the [repository vault](https://github.com/YemotaY?tab=repositories)._
+
 
 
 ## `./stats`
