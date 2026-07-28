@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+width="900"
+height="260">
+
+<defs>
+
+<filter id="shadow">
+    <feDropShadow dx="0" dy="8" stdDeviation="8"
+    flood-color="#00ffe7"
+    flood-opacity="0.35"/>
+</filter>
+
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#0d1117"/>
+    <stop offset="100%" stop-color="#161b22"/>
+</linearGradient>
+
+<style>
+text {
+fill:white;
+font-family:Arial;
+}
+
+.card {
+animation: float 4s ease-in-out infinite;
+}
+
+.card2 {
+animation-delay:.5s;
+}
+
+.card3 {
+animation-delay:1s;
+}
+
+@keyframes float {
+0% {transform:translateY(0px)}
+50% {transform:translateY(-8px)}
+100% {transform:translateY(0px)}
+}
+
+.avatar {
+filter:url(#shadow);
+}
+
+</style>
+
+</defs>
+
+<rect width="100%" height="100%" fill="url(#bg)" rx="20"/>
+
+<text x="40" y="45"
+font-size="28"
+font-weight="bold">
+Latest Followers
+</text>
+
+<g class="card card1">
+    <circle
+        class="avatar"
+        cx="70"
+        cy="130"
+        r="45"
+        fill="#222"/>
+
+    <image
+        href="https://avatars.githubusercontent.com/u/21992452?s=128&u=46597bc16b1d35b8889e4fbe49e2bc1ad28aa2af&v=4"
+        x="25"
+        y="85"
+        width="90"
+        height="90"
+        clip-path="circle(45px at 45px 45px)"
+    />
+
+    <text
+        x="70"
+        y="205"
+        text-anchor="middle"
+        font-size="16">
+        @alexanderdfox
+    </text>
+</g>
+
+<g class="card card2">
+    <circle
+        class="avatar"
+        cx="330"
+        cy="130"
+        r="45"
+        fill="#222"/>
+
+    <image
+        href="https://avatars.githubusercontent.com/u/166778690?s=128&u=5fb070362207d52fbffd6cb0d5b7e6cd5879e188&v=4"
+        x="285"
+        y="85"
+        width="90"
+        height="90"
+        clip-path="circle(45px at 45px 45px)"
+    />
+
+    <text
+        x="330"
+        y="205"
+        text-anchor="middle"
+        font-size="16">
+        @p3rem
+    </text>
+</g>
+
+<g class="card card3">
+    <circle
+        class="avatar"
+        cx="590"
+        cy="130"
+        r="45"
+        fill="#222"/>
+
+    <image
+        href="https://avatars.githubusercontent.com/u/110224521?s=128&u=3aeaacb31d4b8619feacec6f4604d003b75440fa&v=4"
+        x="545"
+        y="85"
+        width="90"
+        height="90"
+        clip-path="circle(45px at 45px 45px)"
+    />
+
+    <text
+        x="590"
+        y="205"
+        text-anchor="middle"
+        font-size="16">
+        @fazaroot
+    </text>
+</g>
+</svg>
