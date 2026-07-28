@@ -1,5 +1,6 @@
 import os
 import requests
+from xml.sax.saxutils import escape
 
 TOKEN = os.environ["GITHUB_TOKEN"]
 USERNAME = os.environ["GITHUB_REPOSITORY_OWNER"]
