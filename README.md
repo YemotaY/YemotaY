@@ -11,6 +11,7 @@
 
 ![Frens](./followers.svg)
 ![Stars](./stars.svg)
+![Top Languages](./followers-3d.svg)
 
 </div>
 
@@ -78,7 +79,7 @@ domains:     [ Fullstack, Embedded, AI-Backend + MCP, Robotics + PLC, SAP ]
 <div align="center">
   
   ![Top Languages](./top-languages.svg)
-  
+ 
   (Maybe one day Github will accept .tnc as own language, then +20% on c-like!)
   </br>
   <img src="./github-streak.svg" alt="streak" />
