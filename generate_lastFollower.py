@@ -1,11 +1,17 @@
 import os
+import base64
 import requests
 from xml.sax.saxutils import escape
 
 TOKEN = os.environ["GITHUB_TOKEN"]
 USERNAME = os.environ["GITHUB_REPOSITORY_OWNER"]
-
 OUTPUT = "followers-3d.svg"
+
+
+def get_avatar(url):
+    img = requests.get(url).content
+    encoded = base64.b64encode(img).decode()
+    return f"data:image/png;base64,{encoded}"
 
 query = """
 query($login:String!){
@@ -99,7 +105,7 @@ Latest Followers
 x = 70
 
 for i, f in enumerate(followers, 1):
-
+    avatar = get_avatar(f["avatarUrl"])
     svg += f"""
 <g class="card card{i}">
     <circle
@@ -110,7 +116,7 @@ for i, f in enumerate(followers, 1):
         fill="#222"/>
 
     <image
-        href="{f['avatarUrl']}"
+        href="{avatar}"
         x="{x-45}"
         y="85"
         width="90"
