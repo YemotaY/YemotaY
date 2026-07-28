@@ -98,7 +98,7 @@ filter:url(#shadow);
 <text x="350" y="45"
 font-size="28"
 font-weight="bold">
-Latest Followers
+Latest Frens:
 </text>
 """
 
