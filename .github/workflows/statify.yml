@@ -34,7 +34,7 @@ jobs:
           python generate-profile-views.py
           python generate-followers-badge.py
           python generate-stars-badge.py
-          python generate_lastFollwoer.py
+          python generate_lastFollower.py
 
       - name: Commit changes
         run: |
