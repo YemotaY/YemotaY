@@ -122,7 +122,7 @@ for i, f in enumerate(followers, 1):
         y="205"
         text-anchor="middle"
         font-size="16">
-        @{f['login']}
+        @{escape(f['login'])}
     </text>
 </g>
 """
