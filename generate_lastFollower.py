@@ -102,9 +102,14 @@ Latest Followers
 </text>
 """
 
-x = 70
+positions = [
+    150,
+    450,
+    750
+]
 
 for i, f in enumerate(followers, 1):
+    x = positions[i-1]
     avatar = get_avatar(f["avatarUrl"])
     svg += f"""
 <g class="card card{i}">
@@ -133,7 +138,7 @@ for i, f in enumerate(followers, 1):
     </text>
 </g>
 """
-    x += 260
+
 
 svg += "</svg>"
 
