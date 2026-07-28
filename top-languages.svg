@@ -25,7 +25,7 @@
 <text x="30" y="40" class="title">Top Languages</text>
 <text x="30" y="80" class="text">Python</text>
 <rect x="150" y="68" width="250" height="12" rx="6" fill="#21262d"/>
-<rect x="150" y="68" width="187" height="12" rx="6" fill="#00ff41"/>
+<rect x="150" y="68" width="186" height="12" rx="6" fill="#00ff41"/>
 <text x="420" y="80" class="percent">74.8%</text>
 <text x="30" y="112" class="text">JavaScript</text>
 <rect x="150" y="100" width="250" height="12" rx="6" fill="#21262d"/>
