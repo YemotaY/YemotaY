@@ -102,7 +102,7 @@ domains:     [ Fullstack, Embedded, AI-Backend + MCP, Robotics + PLC, SAP ]
 
 
 <img src="butWhy.svg"></img>
-</audio>[nihilist_penguin.mp3](https://github.com/user-attachments/files/31219201/nihilist_penguin.mp3)
+</video src="https://github.com/user-attachments/files/31219201/nihilist_penguin.mp3">
 </div>
 
 <!--
