@@ -100,6 +100,8 @@ domains:     [ Fullstack, Embedded, AI-Backend + MCP, Robotics + PLC, SAP ]
 
 </sub>
 
+</div>
+
 <!--
 ### 🎨 the inventory (do NOT show the desk sergeant) 🎨
 
@@ -122,12 +124,8 @@ domains:     [ Fullstack, Embedded, AI-Backend + MCP, Robotics + PLC, SAP ]
 </div>
 
 ---
--->
 
 <div align="center">
-  <!-- 𓂀𓋹𓊹𓆓𓅓𓏏𓈗𓆣𓉐𓊪𓏛 -->
-
-
 <img src="https://readme-typing-svg.demolab.com?font=Noto+Sans+Egyptian+Hieroglyphs&weight=700&size=40&pause=900&color=E0B84C&center=true&vCenter=true&width=820&height=90&lines=%F0%93%82%80%20%F0%93%85%93%20%F0%93%8A%A9%20%F0%93%8F%8F%20%F0%93%86%93%20%F0%93%8A%AA;%F0%93%8B%B9%20%F0%93%8A%AA%20%F0%93%88%97%20%F0%93%86%A3%20%F0%93%89%90%20%F0%93%82%80;%F0%93%8F%9B%20%F0%93%82%80%20%F0%93%8B%B9%20%F0%93%8A%A9%20%F0%93%8F%8F%20%F0%93%86%93" alt="𓂀" />
 
 <br/>
@@ -147,6 +145,7 @@ domains:     [ Fullstack, Embedded, AI-Backend + MCP, Robotics + PLC, SAP ]
 <img src="https://readme-typing-svg.demolab.com?font=Noto+Sans+Egyptian+Hieroglyphs&weight=800&size=44&pause=700&color=C8A24B&center=true&vCenter=true&width=760&height=100&lines=%F0%93%89%90%20%F0%93%82%80%20%F0%93%8B%B9;%F0%93%8A%A9%20%F0%93%8F%8F%20%F0%93%86%93;%F0%93%88%97%20%F0%93%86%A3%20%F0%93%8F%9B" alt="𓉐" />
 
 </div>
+-->
 
 
-</div>
+
