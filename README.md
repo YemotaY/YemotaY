@@ -102,11 +102,8 @@ domains:     [ Fullstack, Embedded, AI-Backend + MCP, Robotics + PLC, SAP ]
 
 
 <!--<img src="butWhy.svg"></img>-->
-
+<h1 color="red">But why?</h1>
 [![°_°](butWhy.svg)]([butWhy.svg](https://github.com/user-attachments/assets/d1225d20-6d2e-4404-96bf-d50722184d03))
-
-
-
 
 </div>
 
