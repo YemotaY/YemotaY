@@ -1,0 +1,229 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+  <defs>
+<!--Himmel-->
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#718d98"/>
+      <stop offset="55%" stop-color="#9db3b8"/>
+      <stop offset="100%" stop-color="#b6c6c8"/>
+    </linearGradient>
+<!--Ferne Berge-->
+    <linearGradient id="mountain" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d8e1df"/>
+      <stop offset="45%" stop-color="#839ba5"/>
+      <stop offset="100%" stop-color="#627f8a"/>
+    </linearGradient>
+    <linearGradient id="mountainDark" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9eafb3"/>
+      <stop offset="100%" stop-color="#526e7b"/>
+    </linearGradient>
+<!--Eisfläche-->
+    <linearGradient id="ice" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9fb4b8"/>
+      <stop offset="45%" stop-color="#a9bec1"/>
+      <stop offset="100%" stop-color="#91a8ad"/>
+    </linearGradient>
+<!--leichter atmosphärischer Dunst-->
+    <linearGradient id="mist" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d3dddd" stop-opacity=".16"/>
+      <stop offset="100%" stop-color="#d3dddd" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="blur">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+  </defs>
+<!--HIMMEL-->
+  <rect width="1600" height="900" fill="url(#sky)"/>
+<!--diffuse Wolken-->
+  <path d="M0 90
+           C180 45 280 100 410 72
+           C570 35 670 78 810 55
+           C1010 25 1120 78 1280 50
+           C1430 25 1520 55 1600 35
+           L1600 0 L0 0Z" fill="#8da3aa" opacity=".22" filter="url(#blur)"/>
+<!--HINTERE BERGE-->
+  <path d="
+    M0 175
+    L90 122 L165 142 L255 76 L315 108
+    L375 87 L445 119 L515 92 L575 132
+    L670 65 L750 48 L820 82 L880 61
+    L945 101 L1015 57 L1085 89 L1165 64
+    L1235 42 L1310 63 L1385 30 L1455 62
+    L1530 25 L1600 48
+    L1600 215 L0 215 Z" fill="url(#mountainDark)"/>
+<!--Schneeflächen auf hinteren Bergen-->
+  <path d="
+    M0 151 L90 122 L165 142 L255 76
+    L278 106 L245 116 L220 142 L175 153
+    L120 151 L75 170 L0 176 Z" fill="#cbd6d4" opacity=".85"/>
+  <path d="
+    M315 108 L375 87 L445 119 L515 92
+    L548 125 L508 131 L472 151
+    L420 145 L375 159 L332 145 Z" fill="#d8dfdd" opacity=".8"/>
+  <path d="
+    M575 132 L670 65 L750 48 L820 82
+    L786 91 L748 77 L720 111 L682 130
+    L640 146 Z" fill="#e0e5e2" opacity=".88"/>
+  <path d="
+    M880 61 L945 101 L1015 57 L1085 89
+    L1130 118 L1080 112 L1040 128
+    L990 113 L950 124 L920 101 Z" fill="#dce3e0" opacity=".85"/>
+  <path d="
+    M1165 64 L1235 42 L1310 63 L1385 30
+    L1455 62 L1495 75 L1450 90
+    L1390 78 L1335 102
+    L1275 91 L1225 112 Z" fill="#e1e7e4" opacity=".9"/>
+<!--HAUPTBERGE-->
+  <path d="
+    M0 205
+    C100 185 145 178 220 190
+    L300 151 L375 178
+    L470 130 L535 151
+    L610 112 L685 76
+    L760 48 L822 58 L875 92
+    L940 65 L1015 91
+    L1080 116 L1160 88
+    L1240 105 L1320 73
+    L1390 92 L1460 58
+    L1530 79 L1600 72
+    L1600 225 L0 225 Z" fill="url(#mountain)"/>
+<!--dunkle Felsbereiche-->
+  <path d="
+    M610 112 L685 76 L760 48 L822 58
+    L785 93 L756 128 L720 158
+    L675 151 L640 178 L600 181 Z" fill="#587582" opacity=".92"/>
+  <path d="
+    M1080 116 L1160 88 L1240 105 L1320 73
+    L1390 92 L1350 123 L1300 137
+    L1235 130 L1185 155 L1125 143 Z" fill="#627d87" opacity=".75"/>
+  <path d="
+    M1390 92 L1460 58 L1530 79 L1600 72
+    L1600 151 L1535 139 L1495 121
+    L1450 125 L1415 111 Z" fill="#708b94" opacity=".7"/>
+<!--Schneerinnen-->
+  <path d="M758 49 L735 92 L707 128 L680 151" fill="none" stroke="#dce5e3" stroke-width="20" opacity=".9"/>
+  <path d="M815 61 L842 94 L878 121 L905 144" fill="none" stroke="#dbe4e2" stroke-width="18" opacity=".85"/>
+  <path d="M1228 101 L1202 128 L1170 145" fill="none" stroke="#dce5e2" stroke-width="19" opacity=".8"/>
+<!--BERGFUSS / Horizont-->
+  <path d="
+    M0 195
+    C170 205 280 201 390 197
+    C550 190 675 200 790 194
+    C950 186 1090 193 1230 188
+    C1390 183 1500 190 1600 181
+    L1600 245 L0 245 Z" fill="#6e8991"/>
+  <path d="
+    M0 210
+    C200 202 350 219 520 207
+    C730 192 860 211 1030 198
+    C1220 185 1430 207 1600 190
+    L1600 252 L0 252 Z" fill="#829ba1" opacity=".65"/>
+<!--EISMEER / EBENE-->
+  <rect x="0" y="215" width="1600" height="685" fill="url(#ice)"/>
+<!--Horizontale Eislinien-->
+  <g fill="none" stroke-linecap="round">
+    <path d="M0 337 C210 326 390 348 600 337 S1030 325 1600 341" stroke="#b8c8c9" stroke-width="4" opacity=".45"/>
+    <path d="M0 406 C260 395 430 420 690 408 S1160 396 1600 413" stroke="#879fa5" stroke-width="5" opacity=".28"/>
+    <path d="M0 459 C170 447 360 475 560 462 S970 448 1600 467" stroke="#d0dbda" stroke-width="7" opacity=".5"/>
+    <path d="M0 518 C190 505 390 529 590 516 S1010 504 1600 522" stroke="#839da3" stroke-width="4" opacity=".3"/>
+    <path d="M0 575 C210 559 420 586 670 571 S1160 563 1600 580" stroke="#c9d7d6" stroke-width="8" opacity=".55"/>
+    <path d="M0 643 C180 625 390 657 610 642 S1090 628 1600 647" stroke="#819aa0" stroke-width="5" opacity=".35"/>
+    <path d="M0 708 C230 695 410 723 650 706 S1160 695 1600 714" stroke="#d1dcdc" stroke-width="7" opacity=".58"/>
+  </g>
+<!--Eisrücken-->
+  <g fill="none" stroke-linecap="round">
+    <path d="M0 487 C55 475 84 482 130 489
+             C175 496 220 483 270 488
+             C320 494 355 483 405 490" stroke="#dce5e4" stroke-width="11" opacity=".65"/>
+    <path d="M470 550 C530 534 590 545 642 539
+             C700 533 745 549 800 540
+             C860 530 925 547 980 540" stroke="#dce5e4" stroke-width="13" opacity=".7"/>
+    <path d="M1020 625 C1080 613 1135 627 1190 617
+             C1250 607 1320 622 1380 613
+             C1450 603 1510 618 1600 608" stroke="#dce5e4" stroke-width="12" opacity=".65"/>
+    <path d="M0 739 C120 728 205 746 310 735
+             C400 726 475 742 570 731" stroke="#dbe4e3" stroke-width="14" opacity=".72"/>
+  </g>
+<!--kleine Eisbrocken-->
+  <g fill="#d4dfde" opacity=".85">
+    <path d="M95 535 l18 -13 24 7 9 16 -31 7 -25 -8z"/>
+    <path d="M340 708 l20 -17 26 9 8 17 -29 10 -28 -6z"/>
+    <path d="M850 555 l25 -15 28 10 8 15 -35 10 -28 -8z"/>
+    <path d="M1110 632 l18 -16 24 6 8 18 -27 8z"/>
+    <path d="M1450 742 l22 -13 31 8 6 15 -34 9z"/>
+  </g>
+<!--ATMOSPHÄRISCHE HORIZONT-SCHICHT-->
+  <rect x="0" y="200" width="1600" height="180" fill="url(#mist)"/>
+<!--COZY WALKING PENGUIN — BACK VIEW, STAYS ON THE SPOT-->
+  <g id="penguin" transform="translate(660 700)">
+<!--soft stationary shadow-->
+    <ellipse cx="0" cy="29" rx="25" ry="6" fill="#566e74" opacity=".28">
+      <animate attributeName="rx" values="24;27;24" dur="0.75s" repeatCount="indefinite"/>
+    </ellipse>
+<!--entire penguin gently bobs, but NEVER travels-->
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -3; 0 0; 0 -3; 0 0" dur="0.75s" repeatCount="indefinite"/>
+<!--LEFT LEG-->
+      <g>
+        <path d="
+    M-7 3
+    L-9 18
+    L-16 25" fill="none" stroke="#18272a" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+        <animateTransform attributeName="transform" type="translate" values="0 0; -3 -1; 0 0; 3 1; 0 0" dur="4s" repeatCount="indefinite"/>
+      </g>
+<!--RIGHT LEG-->
+      <g>
+        <path d="
+    M7 3
+    L9 18
+    L16 25" fill="none" stroke="#18272a" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+        <animateTransform attributeName="transform" type="translate" values="0 0; 3 1; 0 0; -3 -1; 0 0" dur="4s" repeatCount="indefinite"/>
+      </g>
+<!--BODY / BACK-->
+      <path d="
+      M-13 -10
+      C-17 -23 -15 -40 -7 -49
+      C-2 -55 7 -55 13 -49
+      C21 -40 22 -23 15 -10
+      C11 0 7 9 1 10
+      C-6 10 -11 1 -13 -10 Z" fill="#10191c"/>
+<!--subtle dark-blue back highlight-->
+      <path d="
+      M-8 -38
+      C-4 -48 5 -51 11 -44
+      C15 -37 16 -25 13 -16
+      C10 -8 7 -3 2 1
+      C-2 -4 -7 -12 -8 -22 Z" fill="#1c2c31" opacity=".65"/>
+<!--BACK OF HEAD-->
+      <ellipse cx="0" cy="-48" rx="13" ry="12" fill="#0b1417"/>
+<!--tiny soft head highlight-->
+      <ellipse cx="-3" cy="-52" rx="5" ry="3" fill="#26383c" opacity=".6"/>
+<!--LEFT FLIPPER-->
+      <g>
+        <path d="
+        M-13 -34
+        C-23 -29 -27 -17 -25 -7
+        C-24 -2 -20 1 -17 -4
+        C-13 -12 -10 -22 -9 -30 Z" fill="#091215">
+          <animateTransform attributeName="transform" type="rotate" values="0 -13 -30; 7 -13 -30; 0 -13 -30; -5 -13 -30; 0 -13 -30" dur="0.75s" repeatCount="indefinite"/>
+        </path>
+      </g>
+<!--RIGHT FLIPPER-->
+      <g>
+        <path d="
+        M13 -34
+        C23 -29 27 -17 25 -7
+        C24 -2 20 1 17 -4
+        C13 -12 10 -22 9 -30 Z" fill="#091215">
+          <animateTransform attributeName="transform" type="rotate" values="0 13 -30; -7 13 -30; 0 13 -30; 5 13 -30; 0 13 -30" dur="0.75s" repeatCount="indefinite"/>
+        </path>
+      </g>
+    </g>
+  </g>
+<!--Vordergrund leichte Nebel-/Schneeschicht-->
+  <path d="
+    M0 790
+    C240 770 390 805 610 789
+    C850 772 1080 805 1280 787
+    C1430 775 1520 789 1600 780
+    L1600 900 L0 900 Z" fill="#a4b8bb" opacity=".25"/>
+</svg>
