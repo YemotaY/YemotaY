@@ -99,7 +99,7 @@ domains:     [ Fullstack, Embedded, AI-Backend + MCP, Robotics + PLC, SAP ]
 ---
 
 </sub>
-<object href="butWhy.svg"></object>
+<img src="butWhy.svg"></img>
 </div>
 
 <!--
