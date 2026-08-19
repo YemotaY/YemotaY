@@ -103,7 +103,7 @@ domains:     [ Fullstack, Embedded, AI-Backend + MCP, Robotics + PLC, SAP ]
 
 <!--<img src="butWhy.svg"></img>-->
 
-[![°_°](butWhy.svg)]([https://www.youtube.com/watch?v=_5tFXJQIzi4](https://github.com/user-attachments/assets/d1225d20-6d2e-4404-96bf-d50722184d03))
+[![°_°](butWhy.svg)]([butWhy.svg](https://github.com/user-attachments/assets/d1225d20-6d2e-4404-96bf-d50722184d03))
 
 
 
