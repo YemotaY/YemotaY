@@ -156,7 +156,7 @@
 <!--COZY WALKING PENGUIN — BACK VIEW, STAYS ON THE SPOT-->
   <g id="penguin" transform="translate(660 700)">
 <!--soft stationary shadow-->
-    <ellipse cx="0" cy="29" rx="25" ry="6" fill="#566e74" opacity=".28">
+    <ellipse cx="0" cy="20" rx="25" ry="6" fill="#566e74" opacity=".28">
       <animate attributeName="rx" values="24;27;24" dur="0.75s" repeatCount="indefinite"/>
     </ellipse>
 <!--entire penguin gently bobs, but NEVER travels-->
@@ -167,16 +167,14 @@
         <path d="
     M-7 3
     L-9 18
-    L-16 25" fill="none" stroke="#18272a" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-        <animateTransform attributeName="transform" type="translate" values="0 0; -3 -1; 0 0; 3 1; 0 0" dur="4s" repeatCount="indefinite"/>
+    L-16 15" fill="none" stroke="#18272a" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
       </g>
 <!--RIGHT LEG-->
       <g>
         <path d="
     M7 3
     L9 18
-    L16 25" fill="none" stroke="#18272a" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-        <animateTransform attributeName="transform" type="translate" values="0 0; 3 1; 0 0; -3 -1; 0 0" dur="4s" repeatCount="indefinite"/>
+    L16 15" fill="none" stroke="#18272a" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
       </g>
 <!--BODY / BACK-->
       <path d="
@@ -204,7 +202,7 @@
         C-23 -29 -27 -17 -25 -7
         C-24 -2 -20 1 -17 -4
         C-13 -12 -10 -22 -9 -30 Z" fill="#091215">
-          <animateTransform attributeName="transform" type="rotate" values="0 -13 -30; 7 -13 -30; 0 -13 -30; -5 -13 -30; 0 -13 -30" dur="0.75s" repeatCount="indefinite"/>
+          <animateTransform attributeName="transform" type="rotate" values="90 -13 -30; 97 -13 -30; 90 -13 -30; 85 -13 -30; 90 -13 -30" dur="0.75s" repeatCount="indefinite"/>
         </path>
       </g>
 <!--RIGHT FLIPPER-->
@@ -214,7 +212,7 @@
         C23 -29 27 -17 25 -7
         C24 -2 20 1 17 -4
         C13 -12 10 -22 9 -30 Z" fill="#091215">
-          <animateTransform attributeName="transform" type="rotate" values="0 13 -30; -7 13 -30; 0 13 -30; 5 13 -30; 0 13 -30" dur="0.75s" repeatCount="indefinite"/>
+          <animateTransform attributeName="transform" type="rotate" values="-90 13 -30; -83 13 -30; -90 13 -30; -95 13 -30; -90 13 -30" dur="0.75s" repeatCount="indefinite"/>
         </path>
       </g>
     </g>
