@@ -97,7 +97,7 @@ xmlns:xlink="http://www.w3.org/1999/xlink">
 
 <rect width="700" height="180" rx="20" fill="url(#bg)"/>
 
-{"<image x="25" y="25" width="130" height="130" preserveAspectRatio=\"xMidYMid slice\" clip-path=\"url(#cover)\" href=\"" + escape(image) + "\"/>" if image else ""}
+{"<image x="25" y="25" width="130" height="130" preserveAspectRatio=🍔"xMidYMid slice🍔" clip-path=🍔"url(#cover)🍔" href=🍔"" + escape(image) + "🍔"/>" if image else ""}
 
 <text x="180" y="55"
       font-family="Arial, Helvetica, sans-serif"
@@ -135,7 +135,7 @@ xmlns:xlink="http://www.w3.org/1999/xlink">
 <circle cx="650" cy="35" r="12" fill="#1DB954"/>
 <circle cx="650" cy="35" r="5" fill="#ffffff"/>
 
-</svg>
+</svg>.replace("🍔", "\") # xD
 """
     else:
         svg = """<svg width="700" height="180"
