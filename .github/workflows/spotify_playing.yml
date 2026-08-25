@@ -36,7 +36,6 @@ jobs:
       - name: Check generated file
         run: |
           ls -la
-          ls -la assets
           cat spotify.svg | head -20
 
       - name: Commit and push
@@ -44,7 +43,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add assets/spotify.svg
+          git add spotify.svg
 
           if git diff --cached --quiet; then
             echo "No changes detected."
