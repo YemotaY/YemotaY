@@ -1,6 +1,7 @@
 import os
 import html
 import requests
+import base64
 
 CLIENT_ID = os.getenv("SPOTIFY_CLIENT_ID")
 CLIENT_SECRET = os.getenv("SPOTIFY_CLIENT_SECRET")
@@ -8,6 +9,23 @@ REFRESH_TOKEN = os.getenv("SPOTIFY_REFRESH_TOKEN")
 
 SVG_PATH = "spotify.svg"
 
+def get_image_as_base64(url):
+    if not url:
+        return None
+
+    try:
+        response = requests.get(url, timeout=10)
+        response.raise_for_status()
+
+        content_type = response.headers.get("Content-Type", "image/jpeg")
+
+        encoded = base64.b64encode(response.content).decode("utf-8")
+
+        return f"data:{content_type};base64,{encoded}"
+
+    except requests.RequestException as e:
+        print(f"Could not download album artwork: {e}")
+        return None
 
 def get_spotify_token():
     url = "https://accounts.spotify.com/api/token"
@@ -76,11 +94,12 @@ def generate_svg(track):
         song = escape(track["song"])
         artist = escape(track["artist"])
         album = escape(track["album"])
-        image = escape(track["image"])
+
+        # Download album artwork and embed it directly into the SVG
+        image = get_image_as_base64(track["image"])
 
         status = "NOW PLAYING" if track["is_playing"] else "PAUSED"
 
-        # Build the image separately.
         image_element = ""
 
         if image:
@@ -109,10 +128,17 @@ def generate_svg(track):
     </linearGradient>
 
     <clipPath id="cover">
-        <rect x="25" y="25" width="130" height="130" rx="12"/>
+        <rect
+            x="25"
+            y="25"
+            width="130"
+            height="130"
+            rx="12"
+        />
     </clipPath>
 </defs>
 
+<!-- Background -->
 <rect
     width="700"
     height="180"
@@ -120,8 +146,10 @@ def generate_svg(track):
     fill="url(#bg)"
 />
 
+<!-- Album artwork -->
 {image_element}
 
+<!-- Status -->
 <text
     x="180"
     y="55"
@@ -133,6 +161,7 @@ def generate_svg(track):
     {status}
 </text>
 
+<!-- Song -->
 <text
     x="180"
     y="90"
@@ -143,6 +172,7 @@ def generate_svg(track):
     {song[:40]}
 </text>
 
+<!-- Artist -->
 <text
     x="180"
     y="120"
@@ -153,6 +183,7 @@ def generate_svg(track):
     {artist[:50]}
 </text>
 
+<!-- Album -->
 <text
     x="180"
     y="148"
@@ -163,6 +194,7 @@ def generate_svg(track):
     {album[:55]}
 </text>
 
+<!-- Spotify indicator -->
 <circle
     cx="650"
     cy="35"
@@ -235,7 +267,7 @@ def generate_svg(track):
         file.write(svg)
 
     print(f"SVG written to {SVG_PATH}")
-
+    
 
 if __name__ == "__main__":
     current = get_current_playing()
