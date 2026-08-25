@@ -4,7 +4,11 @@
   │  > decoding reality, one commit at a time…                   │
   └─────────────────────────────────────────────────────────────┘
 -->
-
+<meta http-equiv="cache-control" content="no-cache, must-revalidate, post-check=0, pre-check=0" />
+<meta http-equiv="cache-control" content="max-age=0" />
+<meta http-equiv="expires" content="0" />
+<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+<meta http-equiv="pragma" content="no-cache" />
 <div align="center">
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&pause=900&color=00FF41&center=true&vCenter=true&width=720&height=70&lines=Trying+to+decipher+the+matrix.;Fullstack+%2B+Embedded+%2B+Robotics;From+raw+machine+code+to+MCP+backends;Knowledge+sponge+%E2%80%A2+eternal+tinkerer" alt="typing banner" />
