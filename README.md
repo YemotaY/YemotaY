@@ -14,11 +14,11 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&pause=900&color=00FF41&center=true&vCenter=true&width=720&height=70&lines=Trying+to+decipher+the+matrix.;Fullstack+%2B+Embedded+%2B+Robotics;From+raw+machine+code+to+MCP+backends;Knowledge+sponge+%E2%80%A2+eternal+tinkerer" alt="typing banner" />
 
-![Frens](./followers.svg)
-![Stars](./stars.svg)
-![Top Languages](./followers-3d.svg)
+![Frens](./followers.svg?)
+![Stars](./stars.svg?)
+![Top Languages](./followers-3d.svg?)
 
-<img src="./spotify.svg" alt="currently_listening" />
+<img src="./spotify.svg?" alt="currently_listening" />
 
 </div>
 
@@ -86,9 +86,9 @@ domains:     [ Fullstack, Embedded, AI-Backend + MCP, Robotics + PLC, SAP ]
 <div align="center">
 
   (Maybe one day Github will accept .tnc as own language, then +20% on c-like!)  
-  ![Top Languages](./top-languages.svg)
+  ![Top Languages](./top-languages.svg?)
   
-  <img src="./github-streak.svg" alt="streak" />
+  <img src="./github-streak.svg?" alt="streak" />
   
   <!--<img src="https://github-readme-activity-graph.vercel.app/graph?username=YemotaY&bg_color=0d1117&color=00ff41&line=00ff41&point=ffffff&area=true&hide_border=true" alt="activity graph" />-->
 
