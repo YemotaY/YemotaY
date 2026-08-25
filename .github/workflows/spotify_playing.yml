@@ -31,13 +31,13 @@ jobs:
           SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
           SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
           SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
-        run: python spotify_readme.py
+        run: python spotify_listening.py
 
       - name: Check generated file
         run: |
           ls -la
           ls -la assets
-          cat assets/spotify.svg | head -20
+          cat spotify.svg | head -20
 
       - name: Commit and push
         run: |
