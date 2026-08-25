@@ -135,8 +135,8 @@ xmlns:xlink="http://www.w3.org/1999/xlink">
 <circle cx="650" cy="35" r="12" fill="#1DB954"/>
 <circle cx="650" cy="35" r="5" fill="#ffffff"/>
 
-</svg>.replace("🍔", "\") # xD
-"""
+</svg>
+""".replace("🍔", "\") # xD
     else:
         svg = """<svg width="700" height="180"
 xmlns="http://www.w3.org/2000/svg">
