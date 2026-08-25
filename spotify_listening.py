@@ -31,7 +31,7 @@ def get_current_playing():
     
     return {
         "song": track.get("name"),
-        "artist": ", *.join([artist["name"] for artist in track.get("artists", [])]),
+        "artist": ", ".join([artist["name"] for artist in track.get("artists", [])]),
         "album": track.get("album", {}).get("name"),
         "image": track.get("album", {}).get("images", [{}])[0].get("url"),
         "progress_ms": data.get("progress_ms", 0),
@@ -42,6 +42,6 @@ def get_current_playing():
 if __name__ == "__main__":
     current = get_current_playing()
     if current:
-        print(ப்பதால்: {current['song']} von {current['artist']})
+        print(f"Momentan : {current['song']} von {current['artist']}")
     else:
         print("Aktuell wird nichts abgespielt.")
