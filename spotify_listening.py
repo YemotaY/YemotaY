@@ -68,7 +68,7 @@ def get_current_playing():
 
 
 def escape(value):
-    return html.escape(str(value or ""))
+    return html.escape(str(value or ""), quote=True)
 
 
 def generate_svg(track):
@@ -76,13 +76,31 @@ def generate_svg(track):
         song = escape(track["song"])
         artist = escape(track["artist"])
         album = escape(track["album"])
-        image = track["image"] or ""
+        image = escape(track["image"])
 
         status = "NOW PLAYING" if track["is_playing"] else "PAUSED"
 
-        svg = f"""<svg width="700" height="180"
-xmlns="http://www.w3.org/2000/svg"
-xmlns:xlink="http://www.w3.org/1999/xlink">
+        # Build the image separately.
+        image_element = ""
+
+        if image:
+            image_element = f"""
+<image
+    x="25"
+    y="25"
+    width="130"
+    height="130"
+    preserveAspectRatio="xMidYMid slice"
+    clip-path="url(#cover)"
+    href="{image}"
+/>
+"""
+
+        svg = f"""<svg
+    width="700"
+    height="180"
+    viewBox="0 0 700 180"
+    xmlns="http://www.w3.org/2000/svg">
 
 <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -95,51 +113,79 @@ xmlns:xlink="http://www.w3.org/1999/xlink">
     </clipPath>
 </defs>
 
-<rect width="700" height="180" rx="20" fill="url(#bg)"/>
+<rect
+    width="700"
+    height="180"
+    rx="20"
+    fill="url(#bg)"
+/>
 
-{"<image x="25" y="25" width="130" height="130" preserveAspectRatio= \"xMidYMid slice \" clip-path= \"url(#cover) \" href= \"" + escape(image) + " \"/>" if image else ""}
+{image_element}
 
-<text x="180" y="55"
-      font-family="Arial, Helvetica, sans-serif"
-      font-size="14"
-      font-weight="bold"
-      fill="#ffffff"
-      opacity="0.8">
+<text
+    x="180"
+    y="55"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="14"
+    font-weight="bold"
+    fill="#ffffff"
+    opacity="0.8">
     {status}
 </text>
 
-<text x="180" y="90"
-      font-family="Arial, Helvetica, sans-serif"
-      font-size="27"
-      font-weight="bold"
-      fill="#ffffff">
+<text
+    x="180"
+    y="90"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="27"
+    font-weight="bold"
+    fill="#ffffff">
     {song[:40]}
 </text>
 
-<text x="180" y="120"
-      font-family="Arial, Helvetica, sans-serif"
-      font-size="18"
-      fill="#ffffff"
-      opacity="0.9">
+<text
+    x="180"
+    y="120"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="18"
+    fill="#ffffff"
+    opacity="0.9">
     {artist[:50]}
 </text>
 
-<text x="180" y="148"
-      font-family="Arial, Helvetica, sans-serif"
-      font-size="14"
-      fill="#ffffff"
-      opacity="0.65">
+<text
+    x="180"
+    y="148"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="14"
+    fill="#ffffff"
+    opacity="0.65">
     {album[:55]}
 </text>
 
-<circle cx="650" cy="35" r="12" fill="#1DB954"/>
-<circle cx="650" cy="35" r="5" fill="#ffffff"/>
+<circle
+    cx="650"
+    cy="35"
+    r="12"
+    fill="#1DB954"
+/>
+
+<circle
+    cx="650"
+    cy="35"
+    r="5"
+    fill="#ffffff"
+/>
 
 </svg>
 """
+
     else:
-        svg = """<svg width="700" height="180"
-xmlns="http://www.w3.org/2000/svg">
+        svg = """<svg
+    width="700"
+    height="180"
+    viewBox="0 0 700 180"
+    xmlns="http://www.w3.org/2000/svg">
 
 <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -148,30 +194,42 @@ xmlns="http://www.w3.org/2000/svg">
     </linearGradient>
 </defs>
 
-<rect width="700" height="180" rx="20" fill="url(#bg)"/>
+<rect
+    width="700"
+    height="180"
+    rx="20"
+    fill="url(#bg)"
+/>
 
-<text x="350" y="82"
-      text-anchor="middle"
-      font-family="Arial, Helvetica, sans-serif"
-      font-size="22"
-      font-weight="bold"
-      fill="#ffffff">
+<text
+    x="350"
+    y="82"
+    text-anchor="middle"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="22"
+    font-weight="bold"
+    fill="#ffffff">
     Nothing playing right now
 </text>
 
-<text x="350" y="115"
-      text-anchor="middle"
-      font-family="Arial, Helvetica, sans-serif"
-      font-size="14"
-      fill="#ffffff"
-      opacity="0.6">
+<text
+    x="350"
+    y="115"
+    text-anchor="middle"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="14"
+    fill="#ffffff"
+    opacity="0.6">
     Spotify
 </text>
 
 </svg>
 """
 
-    os.makedirs(os.path.dirname(SVG_PATH), exist_ok=True)
+    directory = os.path.dirname(SVG_PATH)
+
+    if directory:
+        os.makedirs(directory, exist_ok=True)
 
     with open(SVG_PATH, "w", encoding="utf-8") as file:
         file.write(svg)
