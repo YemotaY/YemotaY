@@ -13,6 +13,8 @@
 ![Stars](./stars.svg)
 ![Top Languages](./followers-3d.svg)
 
+<img src="./spotify.svg" alt="currently_listening" />
+
 </div>
 
 
