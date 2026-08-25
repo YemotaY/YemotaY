@@ -6,7 +6,7 @@ CLIENT_ID = os.getenv("SPOTIFY_CLIENT_ID")
 CLIENT_SECRET = os.getenv("SPOTIFY_CLIENT_SECRET")
 REFRESH_TOKEN = os.getenv("SPOTIFY_REFRESH_TOKEN")
 
-SVG_PATH = "assets/spotify.svg"
+SVG_PATH = "spotify.svg"
 
 
 def get_spotify_token():
