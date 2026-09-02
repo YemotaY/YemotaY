@@ -9,6 +9,7 @@ REFRESH_TOKEN = os.getenv("SPOTIFY_REFRESH_TOKEN")
 
 SVG_PATH = "spotify.svg"
 
+
 def get_image_as_base64(url):
     if not url:
         return None
@@ -18,7 +19,6 @@ def get_image_as_base64(url):
         response.raise_for_status()
 
         content_type = response.headers.get("Content-Type", "image/jpeg")
-
         encoded = base64.b64encode(response.content).decode("utf-8")
 
         return f"data:{content_type};base64,{encoded}"
@@ -26,6 +26,7 @@ def get_image_as_base64(url):
     except requests.RequestException as e:
         print(f"Could not download album artwork: {e}")
         return None
+
 
 def get_spotify_token():
     url = "https://accounts.spotify.com/api/token"
@@ -43,30 +44,7 @@ def get_spotify_token():
     return response.json()["access_token"]
 
 
-def get_current_playing():
-    token = get_spotify_token()
-
-    headers = {
-        "Authorization": f"Bearer {token}"
-    }
-
-    url = "https://api.spotify.com/v1/me/player/currently-playing"
-
-    response = requests.get(url, headers=headers)
-
-    if response.status_code == 204:
-        return None
-
-    if response.status_code != 200:
-        print(f"Spotify API error: {response.status_code}")
-        return None
-
-    data = response.json()
-    track = data.get("item")
-
-    if not track:
-        return None
-
+def track_to_dict(track, is_playing=False):
     return {
         "song": track.get("name", "Unknown"),
         "artist": ", ".join(
@@ -79,10 +57,68 @@ def get_current_playing():
             .get("images", [{}])[0]
             .get("url")
         ),
-        "progress_ms": data.get("progress_ms", 0),
+        "progress_ms": 0,
         "duration_ms": track.get("duration_ms", 0),
-        "is_playing": data.get("is_playing", False),
+        "is_playing": is_playing,
     }
+
+
+def get_current_playing():
+    token = get_spotify_token()
+
+    headers = {
+        "Authorization": f"Bearer {token}"
+    }
+
+    # First try to get the currently playing track
+    url = "https://api.spotify.com/v1/me/player/currently-playing"
+
+    response = requests.get(url, headers=headers)
+
+    if response.status_code == 200:
+        data = response.json()
+        track = data.get("item")
+
+        if track:
+            return track_to_dict(
+                track,
+                is_playing=data.get("is_playing", False)
+            )
+
+    elif response.status_code != 204:
+        print(f"Spotify currently-playing API error: {response.status_code}")
+
+    # Nothing currently playing.
+    # Get the most recently played track instead.
+    print("Nothing currently playing. Checking recently played...")
+
+    recent_url = "https://api.spotify.com/v1/me/player/recently-played"
+
+    recent_response = requests.get(
+        recent_url,
+        headers=headers,
+        params={"limit": 1}
+    )
+
+    if recent_response.status_code != 200:
+        print(
+            f"Spotify recently-played API error: "
+            f"{recent_response.status_code}"
+        )
+        return None
+
+    recent_data = recent_response.json()
+    items = recent_data.get("items", [])
+
+    if not items:
+        return None
+
+    track = items[0].get("track")
+
+    if not track:
+        return None
+
+    return track_to_dict(track, is_playing=False)
 
 
 def escape(value):
@@ -98,7 +134,8 @@ def generate_svg(track):
         # Download album artwork and embed it directly into the SVG
         image = get_image_as_base64(track["image"])
 
-        status = "NOW PLAYING" if track["is_playing"] else "PAUSED"
+        # Currently playing vs. last played
+        status = "NOW PLAYING" if track["is_playing"] else "LAST PLAYED"
 
         image_element = ""
 
@@ -213,6 +250,7 @@ def generate_svg(track):
 """
 
     else:
+        # Only shown if Spotify has no recently played track either
         svg = """<svg
     width="700"
     height="180"
@@ -241,7 +279,7 @@ def generate_svg(track):
     font-size="22"
     font-weight="bold"
     fill="#ffffff">
-    Nothing playing right now
+    No Spotify history available
 </text>
 
 <text
@@ -267,17 +305,19 @@ def generate_svg(track):
         file.write(svg)
 
     print(f"SVG written to {SVG_PATH}")
-    
+
 
 if __name__ == "__main__":
     current = get_current_playing()
 
     if current:
+        status = "currently playing" if current["is_playing"] else "last played"
+
         print(
-            f"Currently playing: "
+            f"{status.capitalize()}: "
             f"{current['song']} by {current['artist']}"
         )
     else:
-        print("Nothing is currently playing.")
+        print("No Spotify track available.")
 
     generate_svg(current)
