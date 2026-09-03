@@ -168,9 +168,8 @@ domains:     [ Fullstack, Embedded, AI-Backend + MCP, Robotics + PLC, SAP ]
 
 </sub>
 
-<!--<img src="./spotify.svg?" alt="currently_listening" />-->
+<img src="./spotify.svg?" alt="currently_listening" />
 
-<!--<img src="butWhy.svg"></img>-->
 <h1 style="color:#FF0000;"> But why? </h1>
 
 [![°_°](butWhy.svg)]([butWhy.svg](https://github.com/user-attachments/assets/d1225d20-6d2e-4404-96bf-d50722184d03))
