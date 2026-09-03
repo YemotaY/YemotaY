@@ -168,7 +168,7 @@ domains:     [ Fullstack, Embedded, AI-Backend + MCP, Robotics + PLC, SAP ]
 
 </sub>
 
-<img src="./spotify.svg?" alt="currently_listening" />
+<!--<img src="./spotify.svg?" alt="currently_listening" />-->
 
 <!--<img src="butWhy.svg"></img>-->
 <h1 style="color:#FF0000;"> But why? </h1>
