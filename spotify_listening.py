@@ -225,7 +225,6 @@ def generate_svg(track):
 
 
 if __name__ == "__main__":
-    return
     current = get_current_playing()
 
     if current:
