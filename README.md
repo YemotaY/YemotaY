@@ -30,7 +30,7 @@ name:        Sören  (a.k.a. YemotaY)
 location:    Germany
 role:        Fullstack + Embedded engineer, backend & AI tinkerer
 mantra:      "build it from absolute zero, understand every byte on the way"
-currently:   Bonzai Integrations + MCP to EDI
+currently:   Hermes to ERP/EDI MIGs
 domains:     [ Fullstack, Embedded, AI-Backend + MCP, Robotics + PLC, SAP ]
 ```
 
