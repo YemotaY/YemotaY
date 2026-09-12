@@ -2,7 +2,7 @@ name: Update Spotify
 
 on:
   schedule:
-   - cron: "*/5 * * * *"
+   - cron: "* */24 * * *"
   workflow_dispatch:
 
 permissions:
