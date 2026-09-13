@@ -212,15 +212,15 @@ def generate_svg(track):
     """
 
     
-    directory = os.path.dirname(SVG_PATH)
-    
-    if directory:
-        os.makedirs(directory, exist_ok=True)
-    
-    with open(SVG_PATH, "w", encoding="utf-8") as file:
-        file.write(svg)
-    
-    print(f"SVG written to {SVG_PATH}")
+            directory = os.path.dirname(SVG_PATH)
+            
+            if directory:
+                os.makedirs(directory, exist_ok=True)
+            
+            with open(SVG_PATH, "w", encoding="utf-8") as file:
+                file.write(svg)
+            
+            print(f"SVG written to {SVG_PATH}")
 
 
 if __name__ == "__main__":
