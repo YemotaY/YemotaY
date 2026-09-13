@@ -103,17 +103,16 @@ def generate_svg(track):
         image_element = ""
 
         if image:
-            image_element = f"""
-    <image
-        x="25"
-        y="25"
-        width="130"
-        height="130"
-        preserveAspectRatio="xMidYMid slice"
-        clip-path="url(#cover)"
-        href="{image}"
-    />
-    """
+            image_element = f"""<image
+                                x="25"
+                                y="25"
+                                width="130"
+                                height="130"
+                                preserveAspectRatio="xMidYMid slice"
+                                clip-path="url(#cover)"
+                                href="{image}"
+                            />
+                            """
     
             svg = f"""<svg
         width="700"
@@ -232,8 +231,9 @@ if __name__ == "__main__":
             f"Currently playing: "
             f"{current['song']} by {current['artist']}"
         )
-        generate_svg(current)
+        
     else:
         print("Nothing is currently playing.")
-
+    
+    generate_svg(current)
     
