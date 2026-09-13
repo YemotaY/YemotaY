@@ -232,7 +232,8 @@ if __name__ == "__main__":
             f"Currently playing: "
             f"{current['song']} by {current['artist']}"
         )
+        generate_svg(current)
     else:
         print("Nothing is currently playing.")
 
-    generate_svg(current)
+    
