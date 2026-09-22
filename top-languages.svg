@@ -25,16 +25,16 @@
 <text x="30" y="40" class="title">Top Languages</text>
 <text x="30" y="80" class="text">C</text>
 <rect x="150" y="68" width="250" height="12" rx="6" fill="#21262d"/>
-<rect x="150" y="68" width="143" height="12" rx="6" fill="#00ff41"/>
-<text x="420" y="80" class="percent">57.2%</text>
+<rect x="150" y="68" width="142" height="12" rx="6" fill="#00ff41"/>
+<text x="420" y="80" class="percent">56.9%</text>
 <text x="30" y="112" class="text">C++</text>
 <rect x="150" y="100" width="250" height="12" rx="6" fill="#21262d"/>
-<rect x="150" y="100" width="44" height="12" rx="6" fill="#3178c6"/>
-<text x="420" y="112" class="percent">17.6%</text>
+<rect x="150" y="100" width="43" height="12" rx="6" fill="#3178c6"/>
+<text x="420" y="112" class="percent">17.5%</text>
 <text x="30" y="144" class="text">Python</text>
 <rect x="150" y="132" width="250" height="12" rx="6" fill="#21262d"/>
 <rect x="150" y="132" width="23" height="12" rx="6" fill="#f1e05a"/>
-<text x="420" y="144" class="percent">9.4%</text>
+<text x="420" y="144" class="percent">9.5%</text>
 <text x="30" y="176" class="text">JavaScript</text>
 <rect x="150" y="164" width="250" height="12" rx="6" fill="#21262d"/>
 <rect x="150" y="164" width="10" height="12" rx="6" fill="#e34c26"/>
@@ -51,8 +51,8 @@
 <rect x="150" y="260" width="250" height="12" rx="6" fill="#21262d"/>
 <rect x="150" y="260" width="6" height="12" rx="6" fill="#00ADD8"/>
 <text x="420" y="272" class="percent">2.7%</text>
-<text x="30" y="304" class="text">PHP</text>
+<text x="30" y="304" class="text">GDScript</text>
 <rect x="150" y="292" width="250" height="12" rx="6" fill="#21262d"/>
-<rect x="150" y="292" width="3" height="12" rx="6" fill="#89e051"/>
-<text x="420" y="304" class="percent">1.2%</text>
+<rect x="150" y="292" width="4" height="12" rx="6" fill="#89e051"/>
+<text x="420" y="304" class="percent">1.8%</text>
 </svg>
