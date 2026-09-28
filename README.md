@@ -20,7 +20,7 @@
 
 </div>
 
-[![Buy Me a Coffee]([[https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png](https://img.buymeacoffee.com/button-api/?text=Buy%20me%20some%20foodie&emoji=%F0%9F%8C%9A&slug=YemotaY&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff)])]([https://buymeacoffee.com](https://buymeacoffee.com/yemotay))
+[![Buy Me a Coffee](https://img.buymeacoffee.com/button-api/?text=Buy%20me%20some%20foodie&emoji=%F0%9F%8C%9A&slug=YemotaY&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff)]([https://buymeacoffee.com](https://buymeacoffee.com/yemotay))
 
 
 ## `whoami`
