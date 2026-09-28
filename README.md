@@ -18,7 +18,7 @@
 ![Stars](./stars.svg?)
 ![Top Languages](./followers-3d.svg?)
 
-<iframe frameborder="0" src="https://itch.io/embed/4943804" width="552" height="167"><a href="https://yemotay.itch.io/whack-a-reporter">WhackAReporter by YemotaY</a></iframe>
+<iframe frameborder="0" src="https://itch.io/embed/4943804" width="552" height="167"> <a href="https://yemotay.itch.io/whack-a-reporter"> WhackAReporter by YemotaY </a> </iframe>
 
 </div>
 
