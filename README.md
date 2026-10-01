@@ -176,6 +176,28 @@ domains:     [ Fullstack, Embedded, AI-Backend + MCP, Robotics + PLC, SAP ]
 
 [!["Buy Me A Coffee"](https://img.buymeacoffee.com/button-api/?text=Buy%20me%20some%20foodie&emoji=%F0%9F%8C%9A&slug=YemotaY&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff)](https://www.buymeacoffee.com/yemotay)
 
+Please use gpg! <3
+
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+Comment: Benutzer-ID:	Soeren YemotaY (Github:YemotaY) <b59190308@gmail.com>
+Comment: Gültig seit:	22.07.26 20:04
+Comment: Typ:	255-bit EdDSA (geheimer Schlüssel verfügbar)
+Comment: Verwendung:	Signieren, Verschlüsselung, Benutzerkennungen beglaubigen
+Comment: Fingerabdruck:	FAB1 C59F 6CAA 5825 443E  7B14 0F08 9EE5 B743 2D6B
+
+mDMEamEGFxYJKwYBBAHaRw8BAQdAwD92xBcL5C6X4rKl31CmSFHvP26ur4Rks6Js
+//E8nW60NVNvZXJlbiBZZW1vdGFZIChHaXRodWI6WWVtb3RhWSkgPGI1OTE5MDMw
+OEBnbWFpbC5jb20+iJAEExYKADgWIQT6scWfbKpYJUQ+exQPCJ7lt0MtawUCamEG
+FwIbAwULCQgHAgYVCgkICwIEFgIDAQIeAQIXgAAKCRAPCJ7lt0Mta8OdAQCCSrds
+LIba+vvEtrLx6shrJb9YAuceHDwQVBewP7QGhgD9G8kKiXA0S7UhaTkDic0jtGtW
+KPZkDXDHwmDcwUqpjgy4OARqYQYXEgorBgEEAZdVAQUBAQdAXccctJq/boUnO+IN
+HNonaN8bTzdhJqdQtr/+GbwC4G4DAQgHiHgEGBYKACAWIQT6scWfbKpYJUQ+exQP
+CJ7lt0MtawUCamEGFwIbDAAKCRAPCJ7lt0Mta94vAP4ruinyP7MFZlssGxVSpRGK
+01FJBjHhzeb4n5MLMR1b2gEAhppOHNYBEj6hJXgNmQ1RGX6WbEahQkJYJ1tpDqr5
+BQQ=
+=Lv/1
+-----END PGP PUBLIC KEY BLOCK-----
+
 
 </div>
 
