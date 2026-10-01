@@ -180,9 +180,6 @@ Please use PGP! <3
 ```gpg
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 Comment: Benutzer-ID:	Soeren YemotaY (Github:YemotaY) <b59190308@gmail.com>
-Comment: Gültig seit:	22.07.26 20:04
-Comment: Typ:	255-bit EdDSA (geheimer Schlüssel verfügbar)
-Comment: Verwendung:	Signieren, Verschlüsselung, Benutzerkennungen beglaubigen
 Comment: Fingerabdruck:	FAB1 C59F 6CAA 5825 443E  7B14 0F08 9EE5 B743 2D6B
 
 mDMEamEGFxYJKwYBBAHaRw8BAQdAwD92xBcL5C6X4rKl31CmSFHvP26ur4Rks6Js
