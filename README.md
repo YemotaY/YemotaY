@@ -177,7 +177,7 @@ domains:     [ Fullstack, Embedded, AI-Backend + MCP, Robotics + PLC, SAP ]
 [!["Buy Me A Coffee"](https://img.buymeacoffee.com/button-api/?text=Buy%20me%20some%20foodie&emoji=%F0%9F%8C%9A&slug=YemotaY&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff)](https://www.buymeacoffee.com/yemotay)
 
 Please use gpg! <3
-
+```gpg
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 Comment: Benutzer-ID:	Soeren YemotaY (Github:YemotaY) <b59190308@gmail.com>
 Comment: Gültig seit:	22.07.26 20:04
@@ -197,7 +197,7 @@ CJ7lt0MtawUCamEGFwIbDAAKCRAPCJ7lt0Mta94vAP4ruinyP7MFZlssGxVSpRGK
 BQQ=
 =Lv/1
 -----END PGP PUBLIC KEY BLOCK-----
-
+```
 
 </div>
 
