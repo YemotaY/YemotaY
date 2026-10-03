@@ -25,24 +25,24 @@
 <text x="30" y="40" class="title">Top Languages</text>
 <text x="30" y="80" class="text">C</text>
 <rect x="150" y="68" width="250" height="12" rx="6" fill="#21262d"/>
-<rect x="150" y="68" width="142" height="12" rx="6" fill="#00ff41"/>
-<text x="420" y="80" class="percent">56.8%</text>
+<rect x="150" y="68" width="141" height="12" rx="6" fill="#00ff41"/>
+<text x="420" y="80" class="percent">56.5%</text>
 <text x="30" y="112" class="text">C++</text>
 <rect x="150" y="100" width="250" height="12" rx="6" fill="#21262d"/>
 <rect x="150" y="100" width="43" height="12" rx="6" fill="#3178c6"/>
-<text x="420" y="112" class="percent">17.5%</text>
+<text x="420" y="112" class="percent">17.4%</text>
 <text x="30" y="144" class="text">Python</text>
 <rect x="150" y="132" width="250" height="12" rx="6" fill="#21262d"/>
 <rect x="150" y="132" width="23" height="12" rx="6" fill="#f1e05a"/>
-<text x="420" y="144" class="percent">9.5%</text>
-<text x="30" y="176" class="text">JavaScript</text>
+<text x="420" y="144" class="percent">9.4%</text>
+<text x="30" y="176" class="text">TypeScript</text>
 <rect x="150" y="164" width="250" height="12" rx="6" fill="#21262d"/>
-<rect x="150" y="164" width="10" height="12" rx="6" fill="#e34c26"/>
-<text x="420" y="176" class="percent">4.2%</text>
-<text x="30" y="208" class="text">TypeScript</text>
+<rect x="150" y="164" width="11" height="12" rx="6" fill="#e34c26"/>
+<text x="420" y="176" class="percent">4.6%</text>
+<text x="30" y="208" class="text">JavaScript</text>
 <rect x="150" y="196" width="250" height="12" rx="6" fill="#21262d"/>
 <rect x="150" y="196" width="10" height="12" rx="6" fill="#dea584"/>
-<text x="420" y="208" class="percent">4.1%</text>
+<text x="420" y="208" class="percent">4.2%</text>
 <text x="30" y="240" class="text">Jupyter Notebook</text>
 <rect x="150" y="228" width="250" height="12" rx="6" fill="#21262d"/>
 <rect x="150" y="228" width="8" height="12" rx="6" fill="#563d7c"/>
