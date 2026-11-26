@@ -195,6 +195,7 @@ BQQ=
 =Lv/1
 -----END PGP PUBLIC KEY BLOCK-----
 ```
+<img width="128" height="128" alt="pepe-hat" src="https://github.com/user-attachments/assets/31eb810b-5a2e-4473-aced-186fc42e031d" />
 
 </div>
 
